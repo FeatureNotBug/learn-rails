@@ -1,25 +1,25 @@
 == README
 >>>
-I. File list:
-BUGS
-config.ru
-Gemfile
-Gemfile.lock
-Rakefile
-README
-TODO
+I. File list:  
+BUGS  
+config.ru  
+Gemfile 
+Gemfile.lock    
+Rakefile    
+README.rdoc  
+TODO  
 
-Directory list:
-app
-bin
-config
-db
-lib
-log
-public
-test
-tmp
-vendor
+Directory list:  
+app  
+bin  
+config  
+db  
+lib  
+log  
+public  
+test  
+tmp  
+vendor  
 
 >>>
 
