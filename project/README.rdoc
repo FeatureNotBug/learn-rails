@@ -6,7 +6,9 @@ Rails: Rails 4.2.6
 
 II. File list:
 BUGS
+#
 config.ru
+#
 Gemfile
 Gemfile.lock
 Rakefile
