@@ -11,8 +11,7 @@
     README.rdoc
     TODO
 
-Directory list:
-    app
+[Directory list:] app
     bin
     config
     db
