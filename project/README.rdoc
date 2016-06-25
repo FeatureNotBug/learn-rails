@@ -3,7 +3,7 @@
 [Versions:] * Ruby: ruby 2.3.0p0 (2015-12-25 revision 53290) [x86_64-linux]
 [] * Rails: Rails 4.2.6
 
-[File list]:  
+[File list:]  <tt>
     BUGS
     config.ru
     Gemfile
@@ -11,6 +11,7 @@
     Rakefile
     README.rdoc
     TODO
+</tt>
 
 [Directory list]:  
     app
