@@ -5,24 +5,25 @@
 * Rails: Rails 4.2.6
 
 <b>File list</b>
-    app
-    bin
-    BUGS
-    config
-    config.ru
-    db
-    Gemfile
-    Gemfile.lock
-    lib
-    log
-    public
-    Rakefile
-    README.rdoc
-    test
-    tmp
-    TODO
-    vendor
-
+<ul style="list-style-type:none">
+    <li>app</li>
+    <li>bin</li>
+    <li>BUGS</li>
+    <li>config</li>
+    <li>config.ru</li>
+    <li>db</li>
+    <li>Gemfile</li>
+    <li>Gemfile.lock</li>
+    <li>lib</li>
+    <li>log</li>
+    <li>public</li>
+    <li>Rakefile</li>
+    <li>README.rdoc</li>
+    <li>test</li>
+    <li>tmp</li>
+    <li>TODO</li>
+    <li>vendor</li>
+</ul>
 
 
 This README would normally document whatever steps are necessary to get the
