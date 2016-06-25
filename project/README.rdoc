@@ -7,12 +7,40 @@
 <b>File list</b>
     app
         assets
+            images
+                .keep
+            javascript
+                application.js
+                welcome.coffee
+            stylesheets
+                application.css
+                welcome.css
         controllers
+                application_controller.rb
+                concerns
+                    .keep
+                welcome_controller.rb
         helpers
+                application_helper.rb
+                welcome_helper.rb
         mailers
+                .keep
         models
+                    concerns
+                        .keep
+                    .keep
+                    member.rb
         views
+                    layouts
+                        application.html.erb
+                    welcome
+                        index.html.erb
     bin
+        bundle
+        rails
+        rake
+        setup
+        spring
     BUGS
     config
     config.ru
