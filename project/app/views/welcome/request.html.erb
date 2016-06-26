@@ -67,7 +67,7 @@ div {
 <p>Inspired by a need for Tux plushes.</p>
 
 <div>
-  <form action="success_req.php">
+  <form action="success.php">
     <label for="from">Requesting from</label>
     <input type="text" id="fname" name="firstname"><br>
 
@@ -81,7 +81,8 @@ div {
       <option value="3">three</option>
     </select><br>
 
-    <textarea name="details"></textarea>
+    <!--<textarea name="details"></textarea>-->
+    <%= text_area "post", "body"%>
   
     <input type="submit" value="Submit">
   </form>
