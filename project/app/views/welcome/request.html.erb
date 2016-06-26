@@ -67,12 +67,13 @@ div {
 <p>Inspired by a need for Tux plushes.</p>
 
 <div>
-  <form action="success.php">
-    <label for="from">Requesting from</label>
-    <input type="text" id="fname" name="firstname"><br>
+<!--  <form action="success.php"> -->
+  <%= form_tag("/success", method: "post") do %>
+    <%= label_tag(:from, "Requesting from") %>
+    <%= text_field_tag(:from) %><br>
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname"><br>
+    <%= label_tag(:lname, "Last Name") %>
+    <%= text_field_tag(:lname) %><br>
 
     <label for="choice">Dropdown that might be used later</label>
     <select id="choice" name="choice">
@@ -85,7 +86,8 @@ div {
     <%= text_area "post", "body"%>
   
     <input type="submit" value="Submit">
-  </form>
+  <!--</form>-->
+  <% end %>
 </div>
 
 </body>

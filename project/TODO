@@ -2,8 +2,9 @@ Literally everything bahahahahaha
 
 but to narrow down a little bit:
 
-- Create view to a request form for commission (use rails stuff to do this)
 - Complete member class
+- Create view to a request form for commission (use rails stuff to do this)
+- Submit that data to the member in question
 - Create member profile pages
 - Submit a commission to another user
 - Include links to sign in/log in (account creation)
