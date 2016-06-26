@@ -1,4 +1,4 @@
-class Member
+class Member < ActiveRecord::Base
   attr_accessor :sell, :bought, :sold, :buyrating, :sellrating, :bio, :reqtofill, :pwd
 
   def new(name, pass)

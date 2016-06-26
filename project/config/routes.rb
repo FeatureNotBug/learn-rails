@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'members/new'
+
   get 'welcome/index'
   root 'welcome#index'
   get 'welcome/request'
