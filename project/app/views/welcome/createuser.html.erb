@@ -1,0 +1,25 @@
+<h1>Please Fill the Signup Form</h1>
+<p>Find me in app/views/welcome/createuser.html.erb</p>
+
+<html>
+
+<head>
+  <title>Signup Page</title>
+</head>
+<body>
+<p>Inspired by a need for Tux plushes.</p>
+
+<div>
+  <%= form_tag("/profilemade", method: "post") do %>
+    <%= label_tag(:myname, "Your username") %>
+    <%= text_field_tag(:seller) %><br>
+
+    <%= label_tag(:pwd, "Password") %>
+    <%= password_field_tag(:pwd) %><br>
+  
+    <input type="submit" value="Submit">
+  <!--</form>-->
+  <% end %>
+</div>
+
+</body>

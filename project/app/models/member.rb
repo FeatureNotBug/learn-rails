@@ -1,7 +1,8 @@
 class Member
-  attr_accessor :sell, :bought, :sold, :buyrating, :sellrating, :bio, :reqtofill
+  attr_accessor :sell, :bought, :sold, :buyrating, :sellrating, :bio, :reqtofill, :pwd
 
-  def new(name)
+  def new(name, pass)
+    @pwd = pass
     @name = name
     @sellrating = 0
     @buyrating = 0
@@ -28,7 +29,8 @@ class Member
   end
 
   private
-  def add_cart()
+  def add_cart(tobuy)
+    
   end
 
   public
