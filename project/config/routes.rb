@@ -1,11 +1,13 @@
 Rails.application.routes.draw do
-  get 'members/new'
 
   get 'welcome/index'
   root 'welcome#index'
   get 'welcome/request'
-   #get 'welcome/request',
-  get 'welcome/createuser'
+  #get 'welcome/createuser'
+  get 'members/new'
+  get "/app/views/members/new", to: "members#new", as: "new"
+
+  resources :members, only: 'create'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

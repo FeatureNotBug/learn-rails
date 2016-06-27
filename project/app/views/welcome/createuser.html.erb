@@ -10,14 +10,14 @@
 <p>Inspired by a need for Tux plushes.</p>
 
 <div>
-  <%= form_tag("/profilemade", method: "post") do %>
-    <%= label_tag(:myname, "Your username") %>
-    <%= text_field_tag(:seller) %><br>
+  <%= form_for Member.new do |f| %>
+    <%= f.label :username %>
+    <%= f.text_field :name %>
 
-    <%= label_tag(:pwd, "Password") %>
-    <%= password_field_tag(:pwd) %><br>
+    <%= f.label :password %>
+    <%= f.password_field :pwd %>
   
-    <input type="submit" value="Create Account">
+    <%= f.submit "Create my account", class: "btn btn-primary" %>
   <!--</form>-->
   <% end %>
 </div>
