@@ -1,5 +1,7 @@
 == README
 
+The app(https://beautifullybroken.herokuapp.com/) version is, as the name implies, broken.  I think this is because I couldn't set up the SendGrid account properly, so I removed all the secrets.
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
